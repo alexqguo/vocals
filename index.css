@@ -11,3 +11,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#uploader > div {
+  margin-bottom: 20px;
+}

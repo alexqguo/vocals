@@ -6,10 +6,20 @@
     <title>Vocals</title>
   </head>
   <body>
-    <div>
-      <label for="file-upload">Provide audio</label>
-      <input type="file" id="file-upload" name="file-upload[]"/>
-    </div>
+    <section id="uploader">
+      <div>
+        <label for="vocal-isolation">Vocal isolation</label>
+        <input type="radio" name="manipulation-type" id="vocal-isolation">
+
+        <label for="vocal-removal">Vocal removal</label>
+        <input type="radio" name="manipulation-type" id="vocal-removal">
+      </div>
+
+      <div>
+        <label for="file-upload">Provide audio</label>
+        <input type="file" id="file-upload" name="file-upload[]"/>
+      </div>
+    </section>
 
     <script src="./index.js"></script>
   </body>
